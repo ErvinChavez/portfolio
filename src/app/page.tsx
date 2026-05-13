@@ -6,8 +6,8 @@ export default function Home() {
             {
               name: "Chavez Tree Service",
               description: "Lead generation + job workflow system.",
-              image: "",
-              live: "https://vercel.com/ervinchavezs-projects/chavez-tree-frontend",
+              image: "/chavezpage.png",
+              live: "https://www.ervinchavez.com",
               stack: [
                 "Node.js",
                 "Express",
@@ -34,7 +34,7 @@ export default function Home() {
             {
               name: "Auto Paint Site",
               description: "Business site with lead capture system.",
-              image: "",
+              image: "/autoshop.png",
               live: "https://autopaintsite.vercel.app/",
               stack: [
                 "Next.js",
@@ -55,18 +55,22 @@ export default function Home() {
           ];
 
   return (
-    <main className="min-h-screen bg-black text-white px-6 md:px-20 py-12">
+    <main className="min-h-screen bg-black text-white px-6 md:px-14 lg:px-24 py-16">
       
       {/* HERO */}
-      <section className="max-w-4xl mx-auto text-center">
+      <section className="max-w-6xl mx-auto text-center">
         
-        <div className="w-28 h-28 mx-auto rounded-full bg-gray-800 mb-6" />
+        <img 
+          src="/SoloErvin.png"
+          alt="Profile Picture"
+          className="w-44 h-44 md:w-60 md:h-60 mx-auto rounded-full object-cover mb-8 border-2 border-zinc-800 shadow-2xl" 
+        />
 
-        <h1 className="text-4xl md:text-5xl font-bold">
-          Your Name
+        <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
+          Ervin Chavez
         </h1>
 
-        <p className="text-gray-400 mt-3 text-lg">
+        <p className="text-gray-400 mt-4 text-xl md:text-2xl">
           Full-Stack Developer
         </p>
 
@@ -77,8 +81,8 @@ export default function Home() {
       </section>
 
       {/* PROJECTS TITLE */}
-      <section className="max-w-5xl mx-auto mt-16">
-        <h2 className="text-2xl font-semibold mb-6">
+      <section className="max-w-7xl mx-auto mt-24">
+        <h2 className="text-3xl md:text-4xl font-bold mb-10 tracking-tight">
           Projects
         </h2>
 
