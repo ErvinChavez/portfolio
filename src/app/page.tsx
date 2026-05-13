@@ -23,9 +23,12 @@ export default function Home() {
                 "Rate Limiting"
               ],
               highlights: [
-                "Built structured lead intake system",
-                "Created service pages",
-                "Designed job request workflow"
+                "Built full backend API for job intake and service requests (Express + Node.js)",
+                "Implemented customer review system for collecting and storing client feedback",
+                "Designed authentication system with JWT + bcrypt security flow",
+                "Created file upload system for job images using Multer + Sharp",
+                "Integrated email notifications for client and admin workflows (Resend API)",
+                "Structured PostgreSQL database using Sequelize ORM for business operations"
               ]
             },
             {
@@ -42,9 +45,11 @@ export default function Home() {
                 "Vercel"
               ],
               highlights: [
-                "Built quote request system",
-                "Designed conversion-focused layout",
-                "Mobile-first UI"
+                "Built modern service website focused on lead generation and conversions",
+                "Designed mobile-first UI optimized for customer inquiries",
+                "Created structured quote and contact flow for service requests",
+                "Implemented reusable component-based layout with Next.js App Router",
+                "Optimized page structure for performance and fast loading UX"
               ]
             }
           ];
