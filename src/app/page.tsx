@@ -7,7 +7,7 @@ export default function Home() {
               name: "Chavez Tree Service",
               description: "Lead generation + job workflow system.",
               image: "/chavezpage.png",
-              live: "https://www.ervinchavez.com",
+              live: "https://chavez-tree-frontend.vercel.app/",
               stack: [
                 "Node.js",
                 "Express",
