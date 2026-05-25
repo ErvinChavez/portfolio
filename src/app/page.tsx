@@ -36,7 +36,7 @@ export default function Home() {
               name: "Park Auto Paint & Body Website",
               description: "Customer-facing business website focused on lead generation, mobile UX, and service visibility",
               image: "/autoshop.png",
-              live: "https://autopaintsite.vercel.app/",
+              live: "https://www.parkautopaint.us/",
               stack: [
                 "Next.js",
                 "React",
