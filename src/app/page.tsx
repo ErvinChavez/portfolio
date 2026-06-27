@@ -103,11 +103,11 @@ export default function Home() {
         </h1>
 
         <p className="text-gray-400 mt-4 text-xl md:text-2xl">
-          Technical Product Analyst / Full-Stack Developer
+          Full-Stack Developer / Technical Product Analyst
         </p>
 
         <p className="text-gray-500 mt-4 max-w-xl mx-auto">
-          I build business systems, workflow solutions, and web applications that help real companies improve operations, customer experience, and lead generation.
+          I build SaaS products, business systems, and client websites — from admin dashboards and automated workflows to clean, fast customer-facing sites.
         </p>
 
       </section>
