@@ -65,7 +65,7 @@ export default function ProjectCard({ project }: { project: Project }) {
               </span>
             ))}
 
-            {project.stack.length > 5 && (
+            {project.stack.length > 5 && !open && (
               <span>
                 +{project.stack.length - 5} more
               </span>
