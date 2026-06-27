@@ -3,6 +3,36 @@ import ProjectCard from "@/components/ProjectCard";
 export default function Home() {
 
   const projects = [
+
+            {
+              name: "Hernandez Learning Academy",
+              description: "Full-stack tutoring SaaS for managing student enrollment, sessions, and payments.",
+              image: "/homepageImg.png",
+              live: "https://tutor-frontend-seven.vercel.app/",
+              stack: [
+                "React",
+                "Apollo Client",
+                "GraphQL",
+                "Apollo Server 5",
+                "MongoDB Atlas",
+                "Node.js",
+                "Express",
+                "JWT Authentication",
+                "Resend API",
+                "Vite",
+                "Vercel",
+                "Render"
+              ],
+              highlights: [
+                "Built full-stack tutoring SaaS supporting the complete student lifecycle from parent inquiry through enrollment, session scheduling, and payment tracking",
+                "Developed public-facing marketing site where parents submit tutoring requests and leave reviews with a smart routing system for positive vs. critical feedback",
+                "Created private admin dashboard for managing incoming requests, converting inquiries to active students, scheduling sessions, and tracking payment status",
+                "Designed GraphQL API using Apollo Server 5 with MongoDB Atlas and Mongoose for flexible document-based data modeling",
+                "Implemented JWT authentication with protected admin routes and secure backend workflows",
+                "Integrated transactional email notifications via Resend for inquiry confirmations and admin alerts",
+                "Built a hand-crafted custom CSS design system without any UI framework"
+              ]
+            },
             {
               name: "Chavez Tree Service",
               description: "Business operations and workflow management platform.",
