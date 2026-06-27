@@ -9,6 +9,7 @@ export default function Home() {
               description: "Full-stack tutoring SaaS for managing student enrollment, sessions, and payments.",
               image: "/homepageImg.png",
               live: "https://tutor-frontend-seven.vercel.app/",
+              github: "https://github.com/ErvinChavez",
               stack: [
                 "React",
                 "Apollo Client",
@@ -38,6 +39,7 @@ export default function Home() {
               description: "Business operations and workflow management platform.",
               image: "/chavezpage.png",
               live: "https://chavez-tree-frontend.vercel.app/",
+              github: "https://github.com/ErvinChavez",
               stack: [
                 "Node.js",
                 "Express",
@@ -67,6 +69,7 @@ export default function Home() {
               description: "Customer-facing business website focused on lead generation, mobile UX, and service visibility",
               image: "/autoshop.png",
               live: "https://www.parkautopaint.us/",
+              github: "https://github.com/ErvinChavez",
               stack: [
                 "Next.js",
                 "React",

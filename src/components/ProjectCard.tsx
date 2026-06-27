@@ -8,6 +8,7 @@ type Project = {
   description: string;
   image: string;
   live: string;
+  github: string;
   stack: string[];
   highlights: string[];
 };
@@ -55,7 +56,7 @@ export default function ProjectCard({ project }: { project: Project }) {
 
           {/* STACK */}
           <div className="flex flex-wrap gap-2 mt-4">
-            {project.stack.slice(0,5).map((item) => (
+            {project.stack.slice(0, open ? project.stack.length :5).map((item) => (
               <span
                 key={item}
                 className="text-xs px-2 py-1 rounded-md bg-zinc-800 text-gray-300"
@@ -114,9 +115,13 @@ export default function ProjectCard({ project }: { project: Project }) {
                   Live Site
                 </a>
 
-                <button className="text-sm px-4 py-2 rounded-lg border border-zinc-700 text-gray-300">
+                <a
+                  href={project.github}
+                  target="_blank"
+                  className="text-sm px-4 py-2 rounded-lg border border-zinc-700 text-gray-300 hover:opacity-90 transition"
+                >
                   Source Code
-                </button>
+                </a>
               </div>
             </div>
           </motion.div>
