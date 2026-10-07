@@ -6,10 +6,10 @@ export default function Home() {
 
             {
               name: "Hernandez Learning Academy",
-              description: "Full-stack tutoring SaaS for managing student enrollment, sessions, and payments.",
+              description: "Full-stack tutoring SaaS built to manage student enrollment, sessions, and payments.",
               image: "/homepageImg.png",
               live: "https://tutor-frontend-seven.vercel.app/",
-              github: "https://github.com/ErvinChavez",
+              github: "https://github.com/ErvinChavez/tutorFrontend",
               stack: [
                 "React",
                 "Apollo Client",
@@ -36,32 +36,36 @@ export default function Home() {
             },
             {
               name: "Chavez Tree Service",
-              description: "Business operations and workflow management platform.",
+              description: "Production business platform with live payment processing, admin operations dashboard, and automated customer workflows.",
               image: "/chavezpage.png",
-              live: "https://chavez-tree-frontend.vercel.app/",
-              github: "https://github.com/ErvinChavez",
+              live: "https://www.chaveztree.com/",
               stack: [
                 "Node.js",
                 "Express",
                 "GraphQL",
                 "PostgreSQL",
                 "Sequelize",
+                "Stripe",
                 "JWT Authentication",
                 "bcryptjs",
                 "Multer",
                 "Sharp",
                 "Resend API",
                 "Helmet",
-                "Rate Limiting"
+                "Rate Limiting",
+                "Row-Level Security"
               ],
               highlights: [
+                "Built live Stripe Checkout payment integration with webhook-verified payment confirmation, used for real customer transactions",
+                "Designed a running-balance payment system supporting multiple payment methods (check, Zelle, Venmo, Cash App, card) that auto-marks a job paid once logged payments cover the total",
+                "Built a combined receipt, payment-link, and review-request email sent automatically on job completion",
+                "Hardened GraphQL field-level authorization so sensitive data (addresses, totals, payment history, client info) is gated per-field by admin context, independent of top-level query access",
+                "Enabled Postgres Row-Level Security across the production database",
                 "Designed customer intake and operational workflow systems supporting service requests, job tracking, and business processes",
+                "Built and fixed a mobile-responsive admin dashboard (collapsible navigation, collapsible job sections) after diagnosing a production-only bug through direct device testing",
                 "Developed secure administrative workflows with JWT authentication, role-based access control, and protected backend APIs",
-                "Built automated customer communication systems for quote requests, review workflows, and internal business notifications",
-                "Structured PostgreSQL database architecture using Sequelize ORM to support operational data management and workflow relationships",
                 "Implemented customer review and feedback system with secure tokenized review flows and automated low-rating alerts",
-                "Created media upload and image processing workflows for job photo management using Multer and Sharp",
-                "Developed GraphQL and REST-based backend services powering frontend business operations and administrative functionality"
+                "Created media upload and image processing workflows for job photo management using Multer and Sharp"
               ]
             },
             {
@@ -69,7 +73,7 @@ export default function Home() {
               description: "Customer-facing business website focused on lead generation, mobile UX, and service visibility",
               image: "/autoshop.png",
               live: "https://www.parkautopaint.us/",
-              github: "https://github.com/ErvinChavez",
+              github: "https://github.com/ErvinChavez/autoPaintSite",
               stack: [
                 "Next.js",
                 "React",

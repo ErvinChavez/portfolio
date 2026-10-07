@@ -8,7 +8,7 @@ type Project = {
   description: string;
   image: string;
   live: string;
-  github: string;
+  github?: string;
   stack: string[];
   highlights: string[];
 };
@@ -115,13 +115,15 @@ export default function ProjectCard({ project }: { project: Project }) {
                   Live Site
                 </a>
 
-                <a
-                  href={project.github}
-                  target="_blank"
-                  className="text-sm px-4 py-2 rounded-lg border border-zinc-700 text-gray-300 hover:opacity-90 transition"
-                >
-                  Source Code
-                </a>
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    className="text-sm px-4 py-2 rounded-lg border border-zinc-700 text-gray-300 hover:opacity-90 transition"
+                  >
+                    Source Code
+                  </a>
+                )}
               </div>
             </div>
           </motion.div>
