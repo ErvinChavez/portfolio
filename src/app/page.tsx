@@ -55,6 +55,7 @@ export default function Home() {
               ],
               highlights: [
                 "Developed customer-facing business website focused on lead generation, service visibility, and customer inquiries",
+                "Gathered requirements directly from the client and translated a raw list of ten requested changes into a scoped, eight-phase delivery plan with dependency sequencing before writing any code",
                 "Designed mobile-first user experience with click-to-call, SMS quote flow, sticky CTA bar, and responsive navigation",
                 "Built structured service presentation and contact flow to help customers understand services and request quotes quickly",
                 "Created before-and-after gallery structure to showcase completed auto body and paint work",
@@ -88,7 +89,7 @@ export default function Home() {
                 "Created private admin dashboard for managing incoming requests, converting inquiries to active students, scheduling sessions, and tracking payment status",
                 "Designed GraphQL API using Apollo Server 5 with MongoDB Atlas and Mongoose for flexible document-based data modeling",
                 "Implemented JWT authentication with protected admin routes and secure backend workflows",
-                "Integrated transactional email notifications via Resend for inquiry confirmations and admin alerts",
+                "Integrated transactional email notifications via Brevo for inquiry confirmations and admin alerts",
                 "Built a hand-crafted custom CSS design system without any UI framework"
               ]
             }
@@ -115,7 +116,7 @@ export default function Home() {
         </p>
 
         <p className="text-gray-500 mt-4 max-w-xl mx-auto">
-          I build SaaS products, business systems, and client websites — from admin dashboards and automated workflows to clean, fast customer-facing sites.
+          I build SaaS products, business systems, and client websites: translating what a business needs into admin dashboards, automated workflows, and clean, fast customer-facing sites.
         </p>
 
       </section>
